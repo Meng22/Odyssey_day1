@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:paddingBottom="10dp">
+
+    <TextView
+            android:text="祭拜人"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/worship_name" android:textSize="24sp"
+            android:layout_marginRight="10dp"/>
+    <TextView
+            android:text="祭拜物品"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/worship_item" android:layout_weight="1"
+            android:textSize="24sp" android:layout_marginRight="10dp"/>
+    <TextView
+            android:text="2019-11-18 09:00:35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/worship_time" android:layout_weight="1"
+            android:textSize="18sp"/>
+</LinearLayout>
